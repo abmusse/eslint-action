@@ -26,4 +26,5 @@ else
 fi
 
 echo "## Running ESLint"
+echo "Run Command: $setup ./node_modules/.bin/eslint $glob"
 sh -c "$setup ./node_modules/.bin/eslint $glob"
